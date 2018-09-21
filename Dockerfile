@@ -53,4 +53,4 @@ VOLUME /root
 
 WORKDIR /root
 
-CMD make image
+CMD make image &>log.txt
